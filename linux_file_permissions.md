@@ -18,9 +18,9 @@ Every file and directory in Linux has **permissions** and an **owner**. Permissi
 
 **Example:**
 ```bash
--rwxr-xr-- 1 amit developers 4096 Sep 9 12:00 script.sh
+-rwxr-xr-- 1 joseph developers 4096 Sep 9 12:00 script.sh
 ```
-- Owner `amit` can read, write, execute
+- Owner `joseph` can read, write, execute
 - Group `developers` can read and execute
 - Others can only read
 
@@ -83,8 +83,8 @@ chmod 644 file.txt    # owner rw, group r, others r
 
 - **chown**: Change file owner and optionally group
 ```bash
-sudo chown amit file.txt       # change owner
-sudo chown amit:developers file.txt  # change owner and group
+sudo chown joseph file.txt       # change owner
+sudo chown joseph:developers file.txt  # change owner and group
 ```
 
 - **chgrp**: Change only group ownership
@@ -141,8 +141,8 @@ chmod +t directory
 # Make script executable by owner only
 chmod u+x script.sh
 
-# Change owner to 'amit' and group to 'devs'
-sudo chown amit:devs project.txt
+# Change owner to 'joseph' and group to 'devs'
+sudo chown joseph:devs project.txt
 
 # Set default permissions for new files to 640
 umask 027
