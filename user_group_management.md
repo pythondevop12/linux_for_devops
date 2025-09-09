@@ -21,9 +21,9 @@ useradd [options] username
 
 ### Example:
 ```bash
-useradd -m -s /bin/bash amit
+useradd -m -s /bin/bash joseph
 ```
-Creates a user **amit** with a home directory and bash shell.
+Creates a user **joseph** with a home directory and bash shell.
 
 ---
 
@@ -43,9 +43,9 @@ usermod [options] username
 
 ### Example:
 ```bash
-usermod -aG sudo amit
+usermod -aG sudo joseph
 ```
-Adds user **amit** to the `sudo` group.
+Adds user **joseph** to the `sudo` group.
 
 ---
 
@@ -59,9 +59,9 @@ passwd [username]
 
 ### Example:
 ```bash
-passwd amit
+passwd joseph
 ```
-Prompts to set a new password for user **amit**.
+Prompts to set a new password for user **joseph**.
 
 ---
 
@@ -88,9 +88,9 @@ Creates a new group called **developers**.
 
 | Command   | Purpose | Example |
 |-----------|---------|---------|
-| **useradd** | Create a new user | `useradd -m -s /bin/bash amit` |
-| **usermod** | Modify existing user | `usermod -aG sudo amit` |
-| **passwd**  | Set/change password | `passwd amit` |
+| **useradd** | Create a new user | `useradd -m -s /bin/bash joseph` |
+| **usermod** | Modify existing user | `usermod -aG sudo joseph` |
+| **passwd**  | Set/change password | `passwd joseph` |
 | **groupadd** | Create new group | `groupadd developers` |
 
 ---
