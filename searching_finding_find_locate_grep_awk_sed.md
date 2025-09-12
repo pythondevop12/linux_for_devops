@@ -533,5 +533,3 @@ sed -i.bak 's/foo/bar/g' file.txt
 
 ---
 
-_This file was created to be a standalone learning reference. Practice the exercises and adapt the examples to your environment. Always run dangerous commands (delete, chmod, chown) with caution and consider backups._
-
